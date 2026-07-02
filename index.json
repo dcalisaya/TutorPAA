@@ -1,0 +1,37 @@
+{
+  "name": "TutorPAA",
+  "status": "draft",
+  "purpose": "Preparacion PAA USFQ con CLI, contenido abierto y agentes AI.",
+  "entrypoints": {
+    "human": "README.md",
+    "agents": "AGENTS.md",
+    "cli": "cli/tutorpaa/main.py"
+  },
+  "core_docs": [
+    "docs/official-sources.md",
+    "docs/paa-model.md",
+    "docs/agent-first-workflow.md",
+    "docs/agent-response-examples.md",
+    "docs/student-guide.md",
+    "docs/content-guidelines.md",
+    "docs/roadmap.md"
+  ],
+  "agent_prompts": [
+    "prompts/agents/tutor.md",
+    "prompts/agents/evaluator.md",
+    "prompts/agents/planner.md",
+    "prompts/agents/question-generator.md",
+    "prompts/agents/simulator.md"
+  ],
+  "student_prompts": [
+    "prompts/start-student-session.md"
+  ],
+  "content_roots": [
+    "content/paa/math",
+    "content/paa/verbal"
+  ],
+  "student_sessions_root": "sessions/students",
+  "future_apps": [
+    "apps/web"
+  ]
+}
