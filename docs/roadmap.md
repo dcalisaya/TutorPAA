@@ -31,15 +31,7 @@ Purpose: ordenar el crecimiento del proyecto sin volverlo pesado.
 - Revision asistida de preguntas generadas por AI.
 - Soporte opcional para redaccion indirecta e ingles si se confirma su necesidad.
 
-## Fase 3: React + Vite
-
-- App web con React + Vite + TypeScript.
-- Dashboard de progreso.
-- Practica visual.
-- Simulacros cronometrados.
-- Editor de preguntas.
-
-## Fase 4: Comunidad
+## Fase 3: Comunidad
 
 - Guia de contribucion.
 - Banco amplio de preguntas.

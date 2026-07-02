@@ -30,8 +30,5 @@
     "content/paa/math",
     "content/paa/verbal"
   ],
-  "student_sessions_root": "sessions/students",
-  "future_apps": [
-    "apps/web"
-  ]
+  "student_sessions_root": "sessions/students"
 }

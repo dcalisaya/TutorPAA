@@ -12,7 +12,7 @@ TutorPAA es un repositorio educativo abierto, pensado para uso local con agentes
 - Contenido abierto en archivos `jsonl`, revisable por Git.
 - Progreso local por estudiante en `sessions/`.
 - Agentes versionados en `prompts/agents/`.
-- Sin app web por ahora: el foco es fortalecer la experiencia con CLI, Codex, opencode y agentes similares.
+- Sin interfaz grafica por ahora: el foco es fortalecer la experiencia con CLI, Codex, opencode y agentes similares.
 - Sin dependencias pesadas: el CLI inicial usa Python estandar.
 
 ## Inicio Rapido
@@ -71,7 +71,6 @@ El banco inicial incluye 56 preguntas revisadas. Si una habilidad aun necesita m
 | `cli/tutorpaa/` | CLI liviano sin dependencias externas. |
 | `sessions/students/` | Perfiles, intentos y planes locales de estudiantes. |
 | `docs/` | Modelo PAA, guias de estudiante, contenido y roadmap. |
-| `packages/` | Modulos futuros para scoring, validacion de contenido y utilidades compartidas. |
 
 ## Alcance Inicial
 
@@ -102,7 +101,7 @@ El proyecto debe crecer sin perder su enfoque local y agent-first:
 - Mejor reporte de errores por habilidad.
 - Plan semanal generado desde el historial del estudiante.
 - Simulacros cortos y completos desde CLI.
-- Validador de contenido JSONL.
+- Validacion de contenido JSONL desde el CLI.
 
 ## Nota Sobre la PAA USFQ
 
